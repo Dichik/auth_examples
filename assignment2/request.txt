@@ -2,3 +2,14 @@ curl --request POST \
 --url 'https://kpi.eu.auth0.com/oauth/token' \
 --header 'content-type: application/x-www-form-urlencoded' \
 --data 'audience=https://kpi.eu.auth0.com/api/v2/&grant_type=client_credentials&client_id=JIvCO5c2IBHlAe2patn6l6q5H35qxti0&client_secret=ZRF8Op0tWM36p1_hxXTU-B0K_Gq_-eAVtlrQpY24CasYiDmcXBhNS6IJMNcz1EgB'
+
+
+
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjVCZTlBZFhrMERaUjhmR1dZYjdkViJ9.eyJpc3MiOiJodHRwczovL2twaS5ldS5hdXRoMC5jb20vIiwic3ViIjoiSkl2Q081YzJJQkhsQWUycGF0bjZsNnE1SDM1cXh0aTBAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8va3BpLmV1LmF1dGgwLmNvbS9hcGkvdjIvIiwiaWF0IjoxNjk3Njk2Mzc1LCJleHAiOjE2OTc3ODI3NzUsImF6cCI6IkpJdkNPNWMySUJIbEFlMnBhdG42bDZxNUgzNXF4dGkwIiwic2NvcGUiOiJyZWFkOnVzZXJzIGNyZWF0ZTp1c2VycyIsImd0eSI6ImNsaWVudC1jcmVkZW50aWFscyJ9.fZ6v2MJXbiBcAmR4eUdre_JxfeiyJmulKYFI0JRIcI4Rsshab5AN8KiOTUJlRNZ4h9Cfr0XO-MIbfayWJlIeQvKRHnw3GuLYQSoa16d74hbhl2yBPJuxGKrwDB5V7F_-ZsYA8bhlHLUWGJP56WG1JZ8uUTBEhKh0xrOkX6HDoqVU8YiVsHihrw--_MTG38iQgWMu3j-uxXw56hh6VSuY1yUMlDnDO4SRnmEHaju0wKDUaN8o8D2QYo1Bch6kH7pWUBMM7ImiIlAOM6YdmNnFehShTXZcLZk-HuOeIXKc-EB98a9EZhOf2_pKqZF5i-sMBLXUhef2xMLxit_wGBbXnQ",
+    "scope":"read:users create:users",
+    "expires_in":86400,
+    "token_type":"Bearer"
+}
+
+
